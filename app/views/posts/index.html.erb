@@ -1,0 +1,23 @@
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <% @posts.each do |post| %>
+                    <div class="post-preview">
+                    <%= link_to post_path(post), nil, {:style=>'text-decoration: none;', :class => "css_class"} do %>
+                        <h2 class="post-title">
+                            <%= post.title %>
+                        </h2>
+                        <h3 class="post-subtitle">
+                            <%= post.subtitle %>
+                        </h3>
+                        <p> Posted on September 10, 2017</p>
+                    <% end %>
+                    </div>
+                <% end %>
+            </div>
+        </div>
+    </div>
+</section>
