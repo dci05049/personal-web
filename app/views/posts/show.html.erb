@@ -3,19 +3,18 @@
 
     <article>
         <div class="container">
-            <div class="row">
-
-                <div class="col-lg-8 col-md-8 mx-auto">
-                            
-                <!-- Portfolio Item Heading -->
-                <div style="text-align: center; margin-top: 20px; margin-bottom: 50px;" class="post-heading">
+            <div style="text-align: center; margin-top: 20px; margin-bottom: 50px;" class="post-heading">
                     <h1> <%= @post.title %></h1>
                     <h2 class="subheading"><%= @post.subtitle %></h2>
                 </div>
+            <div class="row">
+                <div id="chitikaAdBlock-0"></div>
                 </div>
 
+                <div class="col-lg-9 col-md-9 offset-md-2">
                 <!-- /.row -->
                     <%= @post.body.html_safe %>
+                </div>
             </div>
         </div>
     </article>
