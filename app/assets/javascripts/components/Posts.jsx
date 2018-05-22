@@ -12,7 +12,7 @@ class Posts extends React.Component {
 				return (
 					<div>
 						<div class="post-preview">
-							<a href={"/post" + post.id}>
+							<a href={"/post/" + post.id}>
 								<h2 class="post-title">
 									{post.title}
 								</h2>
