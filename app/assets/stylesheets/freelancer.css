@@ -94,7 +94,7 @@ body {
 
 
 header.masthead {
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 20px; }
   header.masthead .page-heading,
   header.masthead .post-heading,
@@ -388,8 +388,9 @@ footer {
   height:60px; 
   width:40px;
   width:10%;
-  display: block;
+  opacity: 0;
   margin-left: auto;
     margin-right: auto;
 }
+
 
